@@ -48,14 +48,10 @@ $color5: #575759;
 
 .puntuacion {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
   height: 20%;
-
-
-
   &__title {
     padding: 40px;
     overflow: hidden;
@@ -64,7 +60,7 @@ $color5: #575759;
     font-weight: 600;
     line-height: 0.8;
     font-size: 60px;
-    text-align: left;
+    text-align: center;
     font-size: 3rem;
     color: #edeee9;
     font-family: "Georgia";
@@ -77,12 +73,13 @@ $color5: #575759;
   &__others {
     display: flex;
     flex-direction: row;
-
+    border-radius: 5%;
     color: rgb(139, 91, 28);
     text-decoration-style: solid;
     background-color:#E6E6E6;
-    width: 30%;
-    margin-left: 10%;
+    width: 20%;
+    margin-right: 10%;
+    margin-top: 3%;
   }
   &__score {
     margin:3%;

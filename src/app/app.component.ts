@@ -62,7 +62,34 @@ export class AppComponent {
     },
     {
       id: 18
-    }
+    },
+    {
+      id: 19
+    },
+    {
+      id: 20
+    },
+    {
+      id: 21
+    },
+    {
+      id: 22
+    },
+    {
+      id: 23
+    },
+    {
+      id: 24
+    },
+    {
+      id: 25
+    },
+    {
+      id: 26
+    },
+    {
+      id: 27
+    },
   ];
 
   randomNumber: number = 1;
@@ -74,7 +101,7 @@ export class AppComponent {
     this.puntos++;
   }
 
-  public segundos: number = 30;
+  public segundos: number = 3000;
 
   public contador(): void {
     setInterval(() => {
