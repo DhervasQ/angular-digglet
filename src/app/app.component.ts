@@ -81,15 +81,7 @@ export class AppComponent {
     {
       id: 24
     },
-    {
-      id: 25
-    },
-    {
-      id: 26
-    },
-    {
-      id: 27
-    },
+
   ];
 
   randomNumber: number = 1;
