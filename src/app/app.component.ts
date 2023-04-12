@@ -10,64 +10,40 @@ export class AppComponent {
 
   cardArray = [
     {
-      id: 1,
-      name: 'earth',
-      img: 'public/exercise-1/earth.svg',
+      id: 1
     },
     {
-      id: 2,
-      name: 'jupiter',
-      img: 'public/exercise-1/jupiter.svg',
+      id: 2
     },
     {
-      id: 3,
-      name: 'mars',
-      img: 'public/exercise-1/mars.svg',
+      id: 3
     },
     {
-      id: 4,
-      name: 'mercury',
-      img: 'public/exercise-1/mercury.svg',
+      id: 4
     },
     {
-      id: 5,
-      name: 'saturn',
-      img: 'public/exercise-1/saturn.svg',
+      id: 5
     },
     {
-      id: 6,
-      name: 'uranus',
-      img: 'public/exercise-1/uranus.svg',
+      id: 6
     },
     {
-      id: 7,
-      name: 'earth',
-      img: 'public/exercise-1/earth.svg',
+      id: 7
     },
     {
-      id: 8,
-      name: 'jupiter',
-      img: 'public/exercise-1/jupiter.svg',
+      id: 8
     },
     {
-      id: 9,
-      name: 'mars',
-      img: 'public/exercise-1/mars.svg',
+      id: 9
     },
     {
-      id: 10,
-      name: 'mercury',
-      img: 'public/exercise-1/mercury.svg',
+      id: 10
     },
     {
-      id: 11,
-      name: 'saturn',
-      img: 'public/exercise-1/saturn.svg',
+      id: 11
     },
     {
-      id: 12,
-      name: 'uranus',
-      img: 'public/exercise-1/uranus.svg',
+      id: 12
     },
   ];
 
