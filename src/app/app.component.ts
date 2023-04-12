@@ -45,6 +45,15 @@ export class AppComponent {
     {
       id: 12
     },
+    {
+      id: 13
+    },
+    {
+      id: 14
+    },
+    {
+      id: 15
+    },
   ];
 
   randomNumber: number = 1;
