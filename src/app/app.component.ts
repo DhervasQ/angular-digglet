@@ -101,7 +101,7 @@ export class AppComponent {
     this.puntos++;
   }
 
-  public segundos: number = 3000;
+  public segundos: number = 30;
 
   public contador(): void {
     setInterval(() => {
