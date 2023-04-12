@@ -54,15 +54,8 @@ $color5: #575759;
   padding-right: 5%;
   height: 20%;
 
-  &__others {
-    display: flex;
-    flex-direction: column;
-    color: rgb(139, 91, 28);
-    text-decoration-style: solid;
-    background-color:#E6E6E6;
-    width: 10%;
-    margin-left: 10%;
-  }
+
+
   &__title {
     padding: 40px;
     overflow: hidden;
@@ -79,5 +72,22 @@ $color5: #575759;
     animation-name: animateShadow;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    
+  }
+  &__others {
+    display: flex;
+    flex-direction: row;
+
+    color: rgb(139, 91, 28);
+    text-decoration-style: solid;
+    background-color:#E6E6E6;
+    width: 30%;
+    margin-left: 10%;
+  }
+  &__score {
+    margin:3%;
+  }
+  &__seconds {
+    margin:3%;
   }
 }
